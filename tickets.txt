@@ -1,0 +1,9 @@
+passenger_name;from;to;date_time;flight;seat;class;gate;
+Anderson Benson;EMA;LCW;05/20/2020 04:30;EasyJet 1048;3B;P;27;
+Alonzo Hunt;BBP;LCW;05/20/2020 05:35;British Airways 7483;10B;S;10;
+Lance Foley;HAW;LCW;05/20/2020 06:22;TUI Airways 9366;6A;C;47;
+Jamie Hunt;DND;LCW;05/20/2020 06:44;British Airways 937;22H;S;68;
+Lia Bolton;HEN;LCW;05/20/2020 07:30;EasyJet 0473;5A;C;39;
+Isabelle Wood;SQZ;LCW;05/20/2020 08:12;TUI Airways 4756;17D;S;26;
+Alvaro Hoover;BBS;LCW;05/20/2020 09:45;British Airways 923;28H;S;44;
+Kimora Sanchez;LWK;LCW;05/20/2020 10:30;EasyJet 9365;3C;P;67;

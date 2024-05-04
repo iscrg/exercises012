@@ -1,0 +1,7 @@
+id;nick_name;first_name;last_name;middle_name;gender;
+1;vitalina;Виталина;;;F;
+2;kristina;Кристина;Воронцова;;F;
+3;avvakuum;Аввакуум;;;;
+4;vsevolod;Всеволод;;Фролович;M;
+5;isaak;Исаак;Мишин;;M;
+6;natan;Натан;Громов;;;
