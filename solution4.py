@@ -22,6 +22,11 @@ class GeometricObject:
 
         :return: None
         """
+        if x < 0:
+            x = 0
+        if y < 0:
+            y = 0
+
         self.__x = x
         self.__y = y
         self.color = color
@@ -36,6 +41,11 @@ class GeometricObject:
 
         :return: None
         """
+        if x < 0:
+            x = 0
+        if y < 0:
+            y = 0
+
         self.__x = x
         self.__y = y
 
@@ -141,6 +151,8 @@ class Circle(GeometricObject):
         :return: None
         """
         super().__init__(x, y, color, filled)
+        if radius < 0:
+            radius = 0
         self.__radius = radius
 
     @property
@@ -159,6 +171,8 @@ class Circle(GeometricObject):
 
         :param radius: The radius to set.
         """
+        if radius < 0:
+            radius = 0
         self.__radius = radius
 
     def get_area(self) -> float:
@@ -238,6 +252,11 @@ class Rectangle(GeometricObject):
         :return: None
         """
         super().__init__(x, y, color, filled)
+        if width < 0:
+            width = 0
+        if height < 0:
+            height = 0
+
         self.width = width
         self.height = height
 
@@ -247,6 +266,8 @@ class Rectangle(GeometricObject):
 
         :return: The area of the rectangle.
         """
+        if width < 0:
+            width = 0
         self.width = width
 
     def set_height(self, height: float):
@@ -256,6 +277,8 @@ class Rectangle(GeometricObject):
         :param height: The height to set.
         :return: None
         """
+        if height < 0:
+            height = 0
         self.height = height
 
     def get_width(self) -> float:
