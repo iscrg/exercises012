@@ -68,13 +68,11 @@ class AirTicket:
 
         :return: A string representing the air ticket.
         """
-        passenger_name = self.passenger_name + ' ' * (16 - len(self.passenger_name))
-        _from = self._from + ' ' * (4 - len(self._from))
-        to = self.to + ' ' * (3 - len(self.data_time))
-        data_time = self.data_time + ' ' * (16 - len(self.data_time))
-        flight = self.flight + ' ' * (20 - len(self.flight))
-        seat = self.seat + ' ' * (4 - len(self.seat))
-        _class = self._class + ' ' * (3 - len(self._class))
-        gate = self.gate + ' ' * (4 - len(self.gate))
-
-        return f'|{passenger_name}|{_from}|{to}|{data_time}|{flight}|{seat}|{_class}|{gate}|'
+        return (f'|{self.passenger_name.ljust(16)}|'
+                f'{self._from.ljust(4)}|'
+                f'{self.to.ljust(3)}|'
+                f'{self.data_time.ljust(16)}|'
+                f'{self.flight.ljust(20)}|'
+                f'{self.seat.ljust(4)}|'
+                f'{self._class.ljust(3)}|'
+                f'{self.gate.ljust(4)}|')
